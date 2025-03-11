@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc, #2af598); /* Gradiasi ungu, biru, hijau */
+}
+
+#flipbook {
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.page .content {
+    padding: 20px;
+    text-align: justify;
+}
+
+.page h1 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.page p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Tombol Navigasi */
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.nav-button.left {
+    left: 20px;
+}
+
+.nav-button.right {
+    right: 20px;
+}
+
+.nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
