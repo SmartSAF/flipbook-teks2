@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipbook Bisnis Paling Digemari 2025</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/turn.js/4.1.1/turn.min.css">
+</head>
+<body>
+    <!-- Tombol Navigasi -->
+    <div class="nav-button left" onclick="flipPrev()">&#10094;</div>
+    <div class="nav-button right" onclick="flipNext()">&#10095;</div>
+
+    <!-- Flipbook -->
+    <div id="flipbook">
+        <!-- Halaman 1 -->
+        <div class="page">
+            <div class="content">
+                <h1>Bisnis Paling Digemari 2025</h1>
+                <p>Di tahun 2025, bisnis berkelanjutan menjadi fokus utama bagi perusahaan di seluruh dunia. Perubahan iklim dan kesadaran konsumen mendorong perusahaan untuk mengadopsi praktik bisnis yang ramah lingkungan.</p>
+                <p>Teknologi hijau, seperti energi terbarukan dan manajemen limbah yang efisien, menjadi tulang punggung dari bisnis berkelanjutan. Perusahaan yang tidak mengikuti tren ini akan ketinggalan dalam persaingan global.</p>
+                <p>Selain itu, regulasi pemerintah yang semakin ketat memaksa perusahaan untuk mengurangi emisi karbon dan meningkatkan transparansi dalam operasi mereka.</p>
+                <p>Investor juga mulai memprioritaskan perusahaan yang memiliki komitmen kuat terhadap lingkungan, sosial, dan tata kelola (ESG).</p>
+                <p>Dengan demikian, bisnis berkelanjutan bukan lagi sekadar pilihan, melainkan keharusan untuk bertahan di era modern.</p>
+            </div>
+        </div>
+
+        <!-- Halaman 2 -->
+        <div class="page">
+            <div class="content">
+                <h1>Energi Terbarukan</h1>
+                <p>Energi terbarukan, seperti tenaga surya dan angin, menjadi sumber energi utama bagi banyak perusahaan di tahun 2025. Biaya produksi yang semakin rendah membuat energi ini lebih terjangkau.</p>
+                <p>Perusahaan besar seperti Google dan Amazon telah berkomitmen untuk menggunakan 100% energi terbarukan dalam operasi mereka. Ini menjadi contoh bagi perusahaan lain untuk mengikuti jejak mereka.</p>
+                <p>Selain mengurangi emisi karbon, energi terbarukan juga membantu perusahaan menghemat biaya operasional dalam jangka panjang.</p>
+                <p>Inovasi dalam penyimpanan energi, seperti baterai lithium-ion, juga memungkinkan perusahaan untuk menggunakan energi terbarukan secara lebih efisien.</p>
+                <p>Dengan demikian, energi terbarukan tidak hanya baik untuk lingkungan, tetapi juga untuk keuntungan bisnis.</p>
+            </div>
+        </div>
+
+        <!-- Halaman 3 -->
+        <div class="page">
+            <div class="content">
+                <h1>Manajemen Limbah Cerdas</h1>
+                <p>Manajemen limbah yang efisien menjadi salah satu kunci sukses bisnis berkelanjutan di tahun 2025. Perusahaan mulai mengadopsi teknologi daur ulang dan pengolahan limbah yang canggih.</p>
+                <p>Contohnya, beberapa perusahaan menggunakan AI untuk memilah limbah secara otomatis, sehingga mengurangi biaya tenaga kerja dan meningkatkan efisiensi.</p>
+                <p>Selain itu, konsep ekonomi sirkular semakin populer. Perusahaan tidak hanya mengurangi limbah, tetapi juga mengubahnya menjadi sumber daya baru.</p>
+                <p>Dengan manajemen limbah yang cerdas, perusahaan tidak hanya membantu lingkungan, tetapi juga menciptakan nilai tambah dari limbah yang dihasilkan.</p>
+                <p>Ini menjadi keunggulan kompetitif di pasar yang semakin sadar akan keberlanjutan.</p>
+            </div>
+        </div>
+
+        <!-- Halaman 4 -->
+        <div class="page">
+            <div class="content">
+                <h1>Transparansi dan Akuntabilitas</h1>
+                <p>Di tahun 2025, transparansi dan akuntabilitas menjadi faktor penting dalam bisnis berkelanjutan. Konsumen dan investor menuntut perusahaan untuk lebih terbuka tentang praktik bisnis mereka.</p>
+                <p>Perusahaan yang tidak transparan akan kehilangan kepercayaan dari konsumen dan investor, yang dapat berdampak negatif pada reputasi dan keuangan mereka.</p>
+                <p>Teknologi blockchain mulai digunakan untuk meningkatkan transparansi dalam rantai pasok, memastikan bahwa setiap tahap produksi memenuhi standar keberlanjutan.</p>
+                <p>Dengan demikian, transparansi bukan hanya tentang memenuhi regulasi, tetapi juga tentang membangun kepercayaan dengan stakeholders.</p>
+                <p>Ini menjadi fondasi penting untuk bisnis yang ingin bertahan dan berkembang di masa depan.</p>
+            </div>
+        </div>
+
+        <!-- Halaman 5 -->
+        <div class="page">
+            <div class="content">
+                <h1>Masa Depan Bisnis Berkelanjutan</h1>
+                <p>Di tahun 2025, bisnis berkelanjutan bukan lagi sekadar tren, melainkan kebutuhan global. Perusahaan yang mengadopsi praktik berkelanjutan akan memiliki keunggulan kompetitif di pasar.</p>
+                <p>Teknologi hijau, energi terbarukan, manajemen limbah yang cerdas, dan transparansi menjadi pilar utama dari bisnis berkelanjutan.</p>
+                <p>Perusahaan yang tidak mengikuti tren ini akan tertinggal dan kehilangan peluang untuk berkembang di era modern.</p>
+                <p>Dengan komitmen yang kuat terhadap keberlanjutan, perusahaan tidak hanya membantu menyelamatkan planet ini, tetapi juga menciptakan nilai jangka panjang bagi stakeholders.</p>
+                <p>Masa depan bisnis adalah bisnis yang berkelanjutan, dan tahun 2025 adalah titik awal dari perubahan besar ini.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load jQuery dari CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Load Turn.js dari folder javascript -->
+    <script src="javascript/turn.min.js"></script>
+    <!-- Efek Suara -->
+    <audio id="pageSound" src="sounds/page-flip.mp3"></audio>
+    <!-- Script Flipbook -->
+    <script>
+        $(document).ready(function() {
+            $('#flipbook').turn({
+                width: 800,
+                height: 600,
+                autoCenter: true,
+                duration: 1000, // Durasi animasi flip
+                acceleration: true, // Aktifkan percepatan animasi
+                gradients: true, // Efek gradien saat flip
+                display: 'double', // Tampilkan dua halaman sekaligus (seperti buku)
+                when: {
+                    turning: function(e, page, view) {
+                        playSound(); // Memutar suara saat halaman dibalik
+                    }
+                }
+            });
+        });
+
+        // Fungsi untuk memutar suara
+        function playSound() {
+            const sound = document.getElementById('pageSound');
+            sound.currentTime = 0; // Reset suara ke awal
+            sound.play();
+        }
+
+        // Fungsi untuk membalik ke halaman sebelumnya
+        function flipPrev() {
+            $('#flipbook').turn('previous');
+        }
+
+        // Fungsi untuk membalik ke halaman berikutnya
+        function flipNext() {
+            $('#flipbook').turn('next');
+        }
+    </script>
+</body>
+</html>
